@@ -1,0 +1,347 @@
+body{
+
+    
+    margin: 0;
+    font-family:'Open sans' ,sans-serif;
+    background-color: #f5f2f0;
+    color: #000;
+}
+
+
+.main{
+    display: flex;
+    position: relative;
+    margin:0;
+}
+
+
+
+.logo{
+    
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 80%;
+}
+
+.left-img{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    left: 0;
+    height:100vh;
+    z-index: -1;
+}
+
+.right-cont{
+    width: 65%;
+    position: relative;
+    margin-left: 400px;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+
+    display: flex;
+    justify-content: ;
+
+    margin-left: 400px;
+    margin-top: 40px;
+    
+    
+}
+
+.nav-list{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        
+    }
+
+.nav-line{
+    /* transform: rotate(90deg); */
+    position: absolute;
+    width: 380px;
+    height: 0px;
+    margin-top: 25px;
+    left: 0;
+    display: inline;
+    font-weight: 900;
+    border: none;
+    border-top: 2px solid #000;
+    
+   
+}
+
+
+
+.nav-item{
+    margin-right:50px ;
+    list-style: none;
+    opacity: .5;
+}
+
+.nav-active{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MID SECTION CSS */
+
+
+
+
+.mid-section{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Merriweather', serif;
+}
+
+.contact-icons-cont{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:0px;
+    margin-right: 120px;
+    
+    /* margin-top: 0px; */
+}
+.contact-icons{
+    margin-top:30px ;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+.creativity{
+
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+    
+}
+
+
+.mid-hd{
+
+    font-size: 6.5rem;
+    margin: 0;
+    
+}
+
+.mid-hd-lt{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+
+.mid-hd-dk{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+
+
+.mid-ct{
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 15%;
+    margin-left: 50px;
+    /* margin-top: 80px; */
+    opacity: .5;
+
+
+}
+
+
+.btn{
+
+    all: unset;
+    display: block;
+    
+    margin-left: 580px;
+    background-color: #323332;
+    padding: 20px 45px;
+    color: #fff;
+    font-size: 1rem;
+    font-family:'Open sans' ,sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.btm{
+
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+    bottom: 0;
+    margin-top: 0px;
+}
+
+.btm-right{
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.skill{
+    width:150px;
+    margin-bottom: 40px;
+}
+
+.line{
+    position: absolute;
+    display: inline;
+    z-index: -2;
+    width: 1px;
+    height: 280px;
+    background-color: gray;
+    left: 45px;
+    margin-top: 60px;
+    border: none;
+    
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color:gray;
+    display: inline-block;
+    padding:  1px;
+    border-radius: 100px;
+    margin: 0;
+    
+
+}
+
+.skill p {
+
+    display:inline-block;
+    color: gray;
+    margin: 0;
+
+}
+
+#active-skill{
+    color: #000;
+    
+}
+
+.big-dot{
+    background-color: #000;
+    padding: 2.5px;
+    margin-right:0px;
+}
+
+.active-skill{
+    margin-right:200px;
+}
+
+
+
+
+
+
+.right-btm-img{
+    width: 40%;
+    /* height: 60%; */
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    margin-right:300px;
+}
+
+
+.right-btm-img::after{
+
+    content: '';
+}
+
+
+.btm-right p{
+    margin-top: 75px;
+    width:70%;
+    margin-bottom: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    right: 50px;
+    width:80px;
+    margin-top: 20px;
+}
+
+
+
+/* 
+.btm-right p::before{
+    content: ",,";
+    position: absolute;
+    bottom: 50px;
+    font-size: 4rem;
+    font-weight: 900;
+} */
+
+.comma{
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+}
